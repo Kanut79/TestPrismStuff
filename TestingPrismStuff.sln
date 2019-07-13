@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestModuleA", "TestModuleA\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contracts", "Contracts", "{D25F862C-0899-4AC9-9B89-BA40658BAF9C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApp", "TestApp\TestApp.csproj", "{5E0A3A61-DCC8-4185-9904-0435EF192DA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrismApp", "TestApp\PrismApp.csproj", "{5E0A3A61-DCC8-4185-9904-0435EF192DA2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
