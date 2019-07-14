@@ -3,6 +3,7 @@ using ModuleA.Views;
 using ModuleB.Views;
 using Prism.Ioc;
 using Prism.Regions;
+using System;
 using System.Windows;
 
 namespace TestApp.Views
@@ -21,16 +22,12 @@ namespace TestApp.Views
             InitializeComponent();
             _container = container;
             _regionManager = regionManager;
+           
         }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            var viewa = _container.Resolve<ITestModuleA>();
+        protected override void OnContentRendered(EventArgs e) {
+            var view = _container.Resolve<IBaseModule>();
             IRegion region = _regionManager.Regions["ContentRegion"];
-            region.Add(viewa);
-            var viewb = _container.Resolve<ITestModuleB>();
-            IRegion region1 = _regionManager.Regions["ContentRegion1"];
-            region1.Add(viewb);
+            region.Add(view);
         }
     }
 }

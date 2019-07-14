@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contracts", "Contracts", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrismApp", "TestApp\PrismApp.csproj", "{5E0A3A61-DCC8-4185-9904-0435EF192DA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseModule", "BaseModule\BaseModule.csproj", "{75A1EDAE-7F84-42F8-BB3D-D68D379A45BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{5E0A3A61-DCC8-4185-9904-0435EF192DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E0A3A61-DCC8-4185-9904-0435EF192DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E0A3A61-DCC8-4185-9904-0435EF192DA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75A1EDAE-7F84-42F8-BB3D-D68D379A45BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75A1EDAE-7F84-42F8-BB3D-D68D379A45BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75A1EDAE-7F84-42F8-BB3D-D68D379A45BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75A1EDAE-7F84-42F8-BB3D-D68D379A45BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,6 +67,7 @@ Global
 		{E3EDD158-D167-4F5A-BD64-7B8A7FFB6668} = {D25F862C-0899-4AC9-9B89-BA40658BAF9C}
 		{9A171F28-4272-4ABE-90CF-2DDC0371B41E} = {6B4E53A7-CD7D-4073-88F5-4F1D21D5E44D}
 		{7061E624-AA91-475B-81AA-1A6D1AA27106} = {C326D10A-4348-429D-B3CE-AED320AC15DD}
+		{75A1EDAE-7F84-42F8-BB3D-D68D379A45BE} = {6B4E53A7-CD7D-4073-88F5-4F1D21D5E44D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7EBAF988-3291-4B96-95C6-B7FD5421BD38}

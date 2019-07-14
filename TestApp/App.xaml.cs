@@ -6,6 +6,7 @@ using Interfaces;
 using ModuleB.Views;
 using ModuleOtherB;
 using ModuleOtherB.Views;
+using BaseModule.Views;
 
 namespace TestApp
 {
@@ -21,6 +22,7 @@ namespace TestApp
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
+            containerRegistry.Register<IBaseModule, BaseView>();
             containerRegistry.Register<ITestModuleA, ViewA>();
             containerRegistry.Register<ITestModuleB, ViewB>();
             //containerRegistry.Register<ITestModuleB, ViewOtherB>();
