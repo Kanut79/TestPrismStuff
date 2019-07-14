@@ -15,12 +15,21 @@ namespace BaseModule.Views
         IContainerExtension _container;
         IRegionManager _regionManager;
 
+        // Dependency Injection with ServiceLocator. Possible nullReferenceException if CommonServiceLocator.ServiceLocator.Current not set.
+        public BaseView()
+        {
+            InitializeComponent();
+            _container = CommonServiceLocator.ServiceLocator.Current.GetInstance<IContainerExtension>();
+            _regionManager = CommonServiceLocator.ServiceLocator.Current.GetInstance<IRegionManager>();
+        }
+
+        // Dependency Injection with constructor properties. View can not be directly referenced in .xaml files
         public BaseView(IContainerExtension container, IRegionManager regionManager)
         {
             InitializeComponent();
             _container = container;
             _regionManager = regionManager;
-            
+
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

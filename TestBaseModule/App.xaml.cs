@@ -1,12 +1,8 @@
 ﻿using Prism.Ioc;
-using TestApp.Views;
+using TestBaseModule.Views;
 using System.Windows;
-using ModuleA.Views;
-using Interfaces;
-using ModuleB.Views;
-using BaseModule.Views;
 
-namespace TestApp
+namespace TestBaseModule
 {
     /// <summary>
     /// Interaction logic for App.xaml
@@ -20,10 +16,7 @@ namespace TestApp
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            containerRegistry.Register<IBaseModule, BaseView>();
-            containerRegistry.Register<ITestModuleA, ViewA>();
-            containerRegistry.Register<ITestModuleB, ViewB>();
-            //containerRegistry.Register<ITestModuleB, ViewOtherB>();
+
         }
     }
 }

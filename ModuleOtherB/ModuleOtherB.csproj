@@ -9,7 +9,7 @@
     <None Remove="Views\ViewOtherB.xaml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Prism.Wpf" Version="7.2.0.639-ci" />
+    <PackageReference Include="Prism.Wpf" Version="7.2.0.708-pre" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Interfaces\Interfaces.csproj" />

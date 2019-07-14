@@ -1,6 +1,4 @@
 ﻿using Interfaces;
-using ModuleA.Views;
-using ModuleB.Views;
 using Prism.Ioc;
 using Prism.Regions;
 using System;

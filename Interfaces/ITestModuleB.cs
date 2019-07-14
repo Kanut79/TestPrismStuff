@@ -1,6 +1,5 @@
 ﻿namespace Interfaces
-{
-    public interface ITestModuleB
+{    public interface ITestModuleB
     {
     }
 }
