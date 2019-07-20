@@ -20,9 +20,9 @@ namespace TestApp.Views
         {
             InitializeComponent();
             _container = container;
-            _regionManager = regionManager;
-           
+            _regionManager = regionManager;           
         }
+
         protected override void OnContentRendered(EventArgs e) {
             var baseView = _container.Resolve<IBaseModule>();
             IRegion region = null;
@@ -35,10 +35,8 @@ namespace TestApp.Views
             }
                 
             if (region != null && baseView != null)
-            {
+            { 
                 region.Add(baseView);
-            }
-            
-        }
+            }        }
     }
 }
