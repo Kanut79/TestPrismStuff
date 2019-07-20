@@ -1,7 +1,7 @@
-﻿<prism:PrismApplication x:Class="TestApp.App"
+﻿<prism:PrismApplication x:Class="PrismApp.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:TestApp"
+             xmlns:local="clr-namespace:PrismApp"
              xmlns:prism="http://prismlibrary.com/" >
     <Application.Resources>
          

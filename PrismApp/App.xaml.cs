@@ -7,7 +7,7 @@ using ModuleB.Views;
 using BaseModule.Views;
 using ModuleOtherB.Views;
 
-namespace TestApp
+namespace PrismApp
 {
     /// <summary>
     /// Interaction logic for App.xaml

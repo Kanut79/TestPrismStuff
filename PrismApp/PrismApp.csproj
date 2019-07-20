@@ -5,7 +5,7 @@
     <UseWPF>true</UseWPF>
     <AssemblyName>PrismApp</AssemblyName>
     <RuntimeIdentifiers>win7-x64;win10-x64</RuntimeIdentifiers>
-    <StartupObject>TestApp.App</StartupObject>    
+    <StartupObject>PrismApp.App</StartupObject>    
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Prism.Unity" Version="7.2.0.1233-pre" />  
