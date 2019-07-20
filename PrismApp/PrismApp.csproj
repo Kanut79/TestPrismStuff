@@ -19,7 +19,7 @@
   </ItemGroup>
     
   <PropertyGroup Label="StyleCop Properties">
-    <CodeAnalysisRuleSet>..\prismWpf.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>..\prismApp.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup Label="StyleCop Items">
     <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
