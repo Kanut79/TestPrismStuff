@@ -13,7 +13,7 @@ namespace ModuleA.ViewModels
 
         public ViewAViewModel()
         {
-            Message = "View A from your Prism Module";
+            Message = "View A";
         }
     }
 }
