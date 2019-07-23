@@ -16,3 +16,5 @@ https://www.thomasclaudiushuber.com/2019/04/23/net-core-3-use-uwp-controls-in-wp
 Publish commands:
 dotnet publish -c release -r win10-x64
 dotnet publish -c release -r win7-x64
+
+Evtl. als alternative MVVM Light, Caliburn.Micro, Catel, ReactiveUI
