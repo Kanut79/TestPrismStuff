@@ -18,3 +18,6 @@ dotnet publish -c release -r win10-x64
 dotnet publish -c release -r win7-x64
 
 Evtl. als alternative MVVM Light, Caliburn.Micro, Catel, ReactiveUI
+
+Clean Code?
+https://clean-code-developer.com/
